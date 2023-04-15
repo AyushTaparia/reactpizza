@@ -42,6 +42,7 @@ const ProductCard = ({product}) => {
                       <div className="des">
                         <h3>{item?.name}</h3>
                         <div className='starts'>{getStarts(item?.rating)}</div>
+                        <b><p className='description'>{item?.description}</p></b>
                         <p className='price'> <span>Rs.</span>{item?.price}</p>
                       </div>
                       <div className="add-button" onClick={()=>cartHandler(item)}>

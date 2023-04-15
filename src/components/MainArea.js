@@ -19,7 +19,7 @@ const MainArea = () => {
                     <img src={pizzaboy} alt="" />
                 </div>
                 <div className="text">
-                <h2>Welcome to Taparia pizzas!!!{user?.user?.name}</h2>
+                <h2>Welcome to Taparia pizzas!{user?.user?.name}</h2>
                 <button>Order Now!</button>
                 <img className='full circle' src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Orange_circle_100%25.svg/768px-Orange_circle_100%25.svg.png" alt="" />
                 <img className='small circle' src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Orange_circle_100%25.svg/768px-Orange_circle_100%25.svg.png" alt="" />

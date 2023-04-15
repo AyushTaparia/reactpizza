@@ -233,11 +233,16 @@
   font-size: 13px;
   color: var(--primary);
 }
+
+.product-card .des .description{
+  font-style: italic;
+  padding: 10px;
+}
 .product-card .des .price {
   font-size: 15px;
 }
 .product-card .des .price span {
-  font-size: 12px;
+  font-size: 15px;
   color: var(--primary);
 }
 .search-bar input {
