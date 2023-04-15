@@ -49,7 +49,6 @@ const Cart = () => {
                             <h3><span>₹</span>{totalPrice}</h3>
                         </div>
                       </div>
-                      <button onClick={checkoutHandler} disabled={totalPrice===0?true:false}>PROCEED TO CHECKOUT</button>
                       </div>
                   </div>
                 ):(
